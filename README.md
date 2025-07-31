@@ -1,7 +1,7 @@
 # YourDigits
 
-A new Flutter project.
+A Flutter project exported from FlutterFlow.
 
-## Getting Started
+To be edited further via Bolt and Cursor/Claude-Code
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+
