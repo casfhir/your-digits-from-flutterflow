@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531532020320",
+    "project_id": "yourdigits",
+    "storage_bucket": "yourdigits.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531532020320:android:1d48195645360f1ff46105",
+        "android_client_info": {
+          "package_name": "com.mycompany.yourdigits"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX_4udTjZoFZYvXI0yIC4Zo2-sV7E_FuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
