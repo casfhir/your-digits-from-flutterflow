@@ -125,16 +125,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => AccountsWidget(),
         ),
         FFRoute(
-          name: ModelTransactionsWidget.routeName,
-          path: ModelTransactionsWidget.routePath,
-          builder: (context, params) => ModelTransactionsWidget(),
-        ),
-        FFRoute(
-          name: ModelAccountsWidget.routeName,
-          path: ModelAccountsWidget.routePath,
-          builder: (context, params) => ModelAccountsWidget(),
-        ),
-        FFRoute(
           name: AddTransactionWidget.routeName,
           path: AddTransactionWidget.routePath,
           builder: (context, params) => AddTransactionWidget(),
@@ -174,16 +164,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: BudgetsWidget.routePath,
           builder: (context, params) => BudgetsWidget(),
         ),
-        FFRoute(
-          name: AddTranJarModeWidget.routeName,
-          path: AddTranJarModeWidget.routePath,
-          builder: (context, params) => AddTranJarModeWidget(),
-        ),
-        FFRoute(
-          name: AddTranJarModeCopyWidget.routeName,
-          path: AddTranJarModeCopyWidget.routePath,
-          builder: (context, params) => AddTranJarModeCopyWidget(),
-        )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
 

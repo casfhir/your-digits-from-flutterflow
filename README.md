@@ -36,6 +36,12 @@ flutter pub get
 flutter run
 ```
 
+4. For web browser preview:
+```bash
+flutter run -d chrome
+```
+This will automatically launch the app in Chrome and assign an available port (typically something like http://localhost:6912)
+
 ## Development
 
 ### Commands

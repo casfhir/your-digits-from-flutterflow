@@ -8,10 +8,6 @@ export '/authentication/auth_login/auth_login_widget.dart' show AuthLoginWidget;
 export '/transaction/transactions/transactions_widget.dart'
     show TransactionsWidget;
 export '/accounts/accounts/accounts_widget.dart' show AccountsWidget;
-export '/models/model_transactions/model_transactions_widget.dart'
-    show ModelTransactionsWidget;
-export '/models/model_accounts/model_accounts_widget.dart'
-    show ModelAccountsWidget;
 export '/transaction/add_transaction/add_transaction_widget.dart'
     show AddTransactionWidget;
 export '/authentication/auth_reset_password/auth_reset_password_widget.dart'
@@ -21,7 +17,4 @@ export '/transaction/edit_transaction/edit_transaction_widget.dart'
     show EditTransactionWidget;
 export '/accounts/edit_account/edit_account_widget.dart' show EditAccountWidget;
 export '/budget/budgets/budgets_widget.dart' show BudgetsWidget;
-export '/add_tran_jar_mode/add_tran_jar_mode_widget.dart'
-    show AddTranJarModeWidget;
-export '/add_tran_jar_mode_copy/add_tran_jar_mode_copy_widget.dart'
-    show AddTranJarModeCopyWidget;
+export '/components/shared_bottom_nav_widget.dart' show SharedBottomNavWidget;
